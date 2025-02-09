@@ -9,12 +9,6 @@ pipeline {
     // proses sdlc
     stages {
         // proses build apps
-        stage('Build Apps') {
-            steps {
-                // echo 'Build Apps'
-                sh 'index.html'
-            }
-        }
         stage('Build images') {
             steps {
                 // echo 'Build images'
