@@ -1,0 +1,7 @@
+services:
+  2048-apps:
+    build: .
+    image: ariq69/2048-apps-image
+    container_name: ct-2048-apps
+    ports:
+      - "8090:80"
