@@ -12,7 +12,7 @@ pipeline {
         stage('Build Apps') {
             steps {
                 // echo 'Build Apps'
-                sh 'apt update -y && apt install nginx -y'
+                sh 'index.html'
             }
         }
         stage('Build images') {
